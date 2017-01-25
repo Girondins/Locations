@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:propertyName="x"
+        android:valueType="floatType"
+        android:valueFrom="0"
+        android:valueTo="@integer/nWidth"
+        android:duration="@integer/animationTime"/>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:valueFrom="0"
+        android:valueTo="90"
+        android:propertyName="rotationY"
+        android:duration="@integer/animationTime" />
+
+</set>
